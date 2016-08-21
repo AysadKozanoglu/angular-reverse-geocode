@@ -6,7 +6,7 @@ AngularJS reverse geocoding directive
 
 ###Demo
 
-To see a demo and further details go to http://jasonwatmore.com/post/2014/02/15/AngularJS-Reverse-Geocoding-Directive.aspx
+To see a demo and further details go to https://plnkr.co/edit/kQCsYr
 
 ###Installation
 
