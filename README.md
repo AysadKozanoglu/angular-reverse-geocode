@@ -27,3 +27,8 @@ To use add a reverse-geocode tag to your page with attributes containing lat and
 ```html
 <reverse-geocode lat="40.730885" lng="-73.997383"></reverse-geocode>
 ```
+###with $scpoe or with "controller as vm"
+If the GPS coordinates are coming from scope variables set in your AngularJS controller you need to use curly-brace expression bindings, e.g:
+```javascript
+<reverse-geocode lat="{{vm.model.latitude}}" lng="{{vm.model.longitude}}" />
+```
